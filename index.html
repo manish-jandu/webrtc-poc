@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr style="display: flex; gap: 30px">
+        <td style="display: flex; flex-direction: column; gap: 10px">
+          <video
+            id="video1"
+            autoplay
+            width="200"
+            height="200"
+            style="background-color: rebeccapurple"
+          ></video>
+          <button id="startCamera1">Start Camera</button>
+          <button id="stopCamera1">Stop Camera</button>
+          <span>Send Message</span>
+          <input type="text" id="sendMessage1" />
+          <button id="setMessage1">Send Message to PC 2</button>
+          <span>Set Remote Description</span>
+          <input type="text" id="remoteDescription1" />
+          <button id="setRemoteDescription1">Set Remote Descrition</button>
+        </td>
+        <td style="display: flex; flex-direction: column; gap: 10px">
+          <video
+            id="video2"
+            autoplay
+            width="200"
+            height="200"
+            style="background-color: rebeccapurple"
+          ></video>
+          <button id="startCamera2">Start Camera</button>
+          <button id="stopCamera2">Stop Camera</button>
+          <span>Send Message </span>
+          <input type="text" id="sendMessage2" />
+          <button id="setMessage2">Send Message to PC 1</button>
+          <span>Set Remote Description</span>
+          <input type="text" id="remoteDescription2" />
+          <button id="setRemoteDescription2">Set Remote Descrition</button>
+        </td>
+      </tr>
+    </table>
+    <script src="./index.js" />
+  </body>
+</html>
